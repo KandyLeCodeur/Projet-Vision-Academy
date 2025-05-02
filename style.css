@@ -1,0 +1,254 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+}
+ nav button{
+    padding: 5px;
+    background-color: orangered;
+}
+.Vision{
+    color: rgb(5, 29, 2);
+}
+span{
+    color: orangered;
+}
+h1,h6,h5{
+    color: white;
+    margin-left: 50px;
+}
+h5{
+    margin-top: 70px;
+}
+.image{
+    height: 400px;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(3, 24, 1);
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 10px;
+}
+.inscription{
+    padding: 4px;
+    background-color: orangered;
+    margin-left: 50px;
+}
+.telecharger{
+    padding: 4px;
+}
+.dsc{
+    height: 400px;
+}
+.formations {
+    padding: 60px;
+    background: #f9f9f9;
+}
+  
+.formations-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+  
+.formations-header h2 {
+    font-size: 28px;
+    color: #333;
+    margin-left: 150px;
+}
+
+.highlight-orange {
+    color: #F4511E;
+}
+
+.formations-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 500px;
+}
+  
+.big-number {
+    font-size: 36px;
+    color: #F4511E;
+    font-weight: bold;
+}
+  
+.formations-info a {
+    color: #00695C;
+    text-decoration: none;
+    font-weight: 500;
+}
+  
+.formations-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+  
+.card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 260px;
+    flex-shrink: 0;
+    position: relative;
+}
+  
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+.card h3 {
+    font-size: 16px;
+    padding: 10px;
+    color: #333;
+    min-height: 70px;
+}
+  
+.card a {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+  
+.orange-border a {
+    background: #F4511E;
+}
+  
+.green-border a {
+    background: #004536;
+}
+  
+.niveau {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #004536;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.ca{
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+  
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: #fff;
+}
+  
+.hero-left {
+    flex: 1;
+    min-width: 300px;
+}
+  
+.hero-left h1 {
+    font-size: 32px;
+    color: #333;
+}
+  
+.hero-left p {
+    margin: 10px 0 20px;
+    color: #666;
+}
+  
+.video-container {
+    position: relative;
+    width: fit-content;
+    width: 400px;
+}
+.main-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);  
+}
+.play-button {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background: white;
+    color: red;
+    border-radius: 50%;
+    padding: 10px 14px;
+    font-size: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.hero-right {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    min-width: 300px;
+} 
+.cards {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(17, 17, 17, 0.05);
+    transition: 0.3s;
+} 
+.card:hover {
+    transform: translateY(-5px);
+} 
+.highlighted {
+    background: #FFA87A;
+    color: white;
+} 
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.vrai{
+    display: flex;
+    justify-content: space-between;
+}
+.le{
+    color: rgb(18, 136, 165);
+    padding: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-style: rgb(31, 49, 54);
+    border-radius: 3px;
+}
+.truc{
+    color: #070707;
+}
+.n{
+    color: #004536;
+}
