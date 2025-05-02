@@ -1,1 +1,1 @@
-![Capture d ecran du site web](./Image/Capture)
+![Capture d ecran du site web](./Images/Capture)
