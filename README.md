@@ -1,2 +1,2 @@
 ## Apercu du Projet
-![Capture d ecran du site web](Captures)
+![Capture d ecran du site web](./image/Captures)
